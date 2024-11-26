@@ -40,7 +40,7 @@ pip list
 pip freeze > requirements.txt
 ```
 
-## Part III (see [`auth.py`](auth.py))
+## Part III (see [`auth.py`](code/auth.py) and [`NB01`](code/NB01%20-%20Data%20Collection.ipynb))
 
 1. Load your environment variables into your Python script. 
 2. Authenticate with Spotify and get a token
