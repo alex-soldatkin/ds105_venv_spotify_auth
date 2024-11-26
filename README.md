@@ -18,11 +18,16 @@ cp .env.template .env
 
 1. Create a `.gitignore` file (already present in this repo). 
 
-2. Create a [virtual environment](https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/):
+2. Create a [virtual environment](https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/) and activate it:
 
 ```bash
 python3 -m venv venv
 ```
+    
+```bash
+source venv/bin/activate
+```
+
 3. `pip install` the necessary packages: 
 
 ```bash
