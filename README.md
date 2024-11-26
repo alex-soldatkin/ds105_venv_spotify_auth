@@ -14,7 +14,8 @@
 cp .env.template .env
 ```
 
-## Part II
+## Part II (from scratch)
+
 1. Create a `.gitignore` file (already present in this repo). 
 
 2. Create a [virtual environment](https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/):
@@ -38,6 +39,26 @@ pip list
 
 ```bash
 pip freeze > requirements.txt
+```
+
+## Part II (from this repo)
+
+1. Create a virtual environment from the `requirements.txt` file:
+
+```bash
+python -m venv venv
+```
+
+2. Activate the virtual environment and install the packages:
+
+```bash
+source venv/bin/activate
+```
+    
+3. Install the packages from the `requirements.txt` file:
+
+```bash 
+pip install -r requirements.txt
 ```
 
 ## Part III (see [`auth.py`](code/auth.py) and [`NB01`](code/NB01%20-%20Data%20Collection.ipynb))
